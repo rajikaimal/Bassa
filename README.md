@@ -138,10 +138,14 @@ Approve the user with given username
   $ npm install
 ```
 
-
 ### To start
 run `gulp serve`
 
 ### Make sure you have aria2 installed.
 run `aria2c --enable-rpc`
 
+#+### Run UI unit tests
+```
+	$ cd ui/
+	$ npm test OR $ yarn test 
+```
